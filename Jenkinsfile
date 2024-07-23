@@ -10,7 +10,7 @@ pipeline {
         stage('Build Docker image') {
             steps {
                 script {
-                    dockerImage = docker.build("yourdockerhubusername/yourimage:latest")
+                    dockerImage = docker.build("ksriram7/devopsapp")
                 }
             }
         }
